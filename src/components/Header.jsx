@@ -1,14 +1,14 @@
 import React from "react";
-import { imgUrl } from "../App";
 
 import profile from "../assets/img/profile.png"
 
 export default function Header() {
   return (
-    <section className="row align-items-center section" id="home_section">
+    <section className="row justify-content-center mb-4 border" id="home_section">
       <div className="col-md-5 order-md-2">
         <img
           id="profile"
+        //   src={profile}
           src={profile}
           alt=""
           className="img-fluid"
@@ -25,19 +25,19 @@ export default function Header() {
         <p>
           <small className="d-block pb-2">
             <i className="fas fa-envelope"></i>
-            <a className="text-decoration-none text-dark" href="#">
+            <a className="text-decoration-none text-dark ms-2" href="#">
               delatorrenelson127@gmail.com
             </a>
           </small>
           <small className="d-block pb-2">
             <i className="fas fa-phone"></i>
-            <a className="text-decoration-none text-dark" href="#">
+            <a className="text-decoration-none text-dark ms-2" href="#">
               0915-7047-251
             </a>
           </small>
           <small className="d-block pb-2">
             <i className="fas fa-map-marker-alt"></i>
-            <a className="text-decoration-none text-dark" href="#">
+            <a className="text-decoration-none text-dark ms-2" href="#">
               Caloocan City, Manila, Philippines
             </a>
           </small>

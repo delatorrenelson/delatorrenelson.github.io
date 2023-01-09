@@ -1,12 +1,10 @@
 import React from "react";
 
-// import { imgUrl } from "../App";
-
 import avatar from "../assets/img/myAvatar_glass.png"
 
 export default function Navbar() {    
   return (
-    <nav className="navbar navbar-expand-sm fw-bold">
+    <nav className="row border mb-4 navbar navbar-expand-sm fw-bold">
       <div className="container-fluid bg-transparent">
         <a className="navbar-brand d-sm-none d-md-block" href="#home_section">
           <img

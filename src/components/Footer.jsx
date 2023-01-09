@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="container-fluid">
+    <div className="row border mb-4">
       <nav className="d-flex justify-content-center">
         <a
           target="_blank"
