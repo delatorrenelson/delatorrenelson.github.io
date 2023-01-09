@@ -1,13 +1,17 @@
 import React from "react";
 
-export default function Navbar() {
+// import { imgUrl } from "../App";
+
+import avatar from "../assets/img/myAvatar_glass.png"
+
+export default function Navbar() {    
   return (
     <nav className="navbar navbar-expand-sm fw-bold">
       <div className="container-fluid bg-transparent">
         <a className="navbar-brand d-sm-none d-md-block" href="#home_section">
           <img
             id="brand_icon"
-            src="./src/assets/img/myAvatar_glass.png"
+            src={avatar}
             alt=""
             className="img-fluid"
           />

@@ -1,6 +1,7 @@
 import React from "react";
+import { imgUrl } from "../App";
 
-const imgUrl = new URL('./assets/img/', import.meta.url).href
+import profile from "../assets/img/profile.png"
 
 export default function Header() {
   return (
@@ -8,7 +9,7 @@ export default function Header() {
       <div className="col-md-5 order-md-2">
         <img
           id="profile"
-          src={`${imgUrl}profile.png`}
+          src={profile}
           alt=""
           className="img-fluid"
         />
