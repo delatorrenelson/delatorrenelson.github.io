@@ -1,12 +1,14 @@
 import React from "react";
 
+const imgUrl = new URL('./src/assets/img/', import.meta.url).href
+
 export default function Header() {
   return (
     <section className="row align-items-center section" id="home_section">
       <div className="col-md-5 order-md-2">
         <img
           id="profile"
-          src="/src/assets/img/profile.png"
+          src={`${imgUrl}profile.png`}
           alt=""
           className="img-fluid"
         />
