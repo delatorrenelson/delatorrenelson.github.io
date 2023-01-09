@@ -1,6 +1,6 @@
 import React from "react";
 
-const imgUrl = new URL('./src/assets/img/', import.meta.url).href
+const imgUrl = new URL('./public/assets/img/', import.meta.url).href
 
 export default function Header() {
   return (
