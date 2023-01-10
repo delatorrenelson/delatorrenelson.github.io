@@ -4,7 +4,7 @@ import avatar from "../assets/img/myAvatar_glass.png"
 
 export default function Navbar() {    
   return (
-    <nav className="row border mb-4 navbar navbar-expand-sm fw-bold">
+    <nav className="row mb-4 navbar navbar-expand-sm fw-bold">
       <div className="container-fluid bg-transparent">
         <a className="navbar-brand d-sm-none d-md-block" href="#home_section">
           <img
@@ -23,20 +23,20 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i className="fas fa-bars text-theme-color1"></i>
+          <i className="fas fa-bars text-purple"></i>
         </button>
         <div
           className="collapse navbar-collapse justify-content-end"
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav text-center">
-            <a className="nav-link text-theme-color1 px-2 mx-5" href="#about">
+            <a className="fs-4 nav-link text-purple px-2 mx-5" href="#about">
               About Me
             </a>
-            <a className="nav-link text-theme-color1 px-2 mx-5" href="#projects">
+            <a className="fs-4 nav-link text-purple px-2 mx-5" href="#projects">
               Projects
             </a>
-            <a className="nav-link text-theme-color1 px-2 mx-5" href="#contact">
+            <a className="fs-4 nav-link text-purple px-2 mx-5" href="#contact">
               Contact
             </a>
           </div>

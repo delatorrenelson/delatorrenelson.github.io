@@ -1,38 +1,38 @@
 [
-    {
-        "title":"HTML 5",
-        "description":"Semantic web structuring for visualizing basic elements.",
-        "icon": "fa-brands fa-html5",
-        "measure": 85
-    },
-    {
-        "title":"CSS 3",
-        "description":"Use for structuring, styling, and formatting web pages.",
-        "icon": "fa-brands fa-css3-alt",
-        "measure": 70
-    },
-    {
-        "title":"JavaScript",
-        "description":"Scripting language best use for Web UI interaction and behavior.",
-        "icon": "fa-brands fa-js",
-        "measure": 85
-    },
-    {
-        "title":"ReactJs",
-        "description":"JS Library built for creating interactive web UIs.",
-        "icon": "fa-react",
-        "measure": 75
-    },
-    {
-        "title":"Graphics Software",
-        "description":"Figma, Illustrator, Photoshop and CorelDraw.",
-        "icon": "fas fa-images",
-        "measure": 75
-    },
-    {
-        "title":"ReactJs",
-        "description":"JS Library built for creating interactive web UIs.",
-        "icon": "fa-react",
-        "measure": 75
-    }
+  {
+    "title": "HTML 5",
+    "description": "Semantic web structuring for visualizing basic elements.",
+    "icon": "fab fa-brands fa-html5",
+    "measure": 90
+  },
+  {
+    "title": "CSS 3",
+    "description": "Use for structuring, styling, and formatting web pages.",
+    "icon": "fab fa-brands fa-css3-alt",
+    "measure": 90
+  },
+  {
+    "title": "JavaScript",
+    "description": "Scripting language best use for Web UI interaction and behavior.",
+    "icon": "fab fa-brands fa-js",
+    "measure": 85
+  },
+  {
+    "title": "ReactJs",
+    "description": "JS Library built for creating interactive web UIs.",
+    "icon": "fab fa-react",
+    "measure": 75
+  },
+  {
+    "title": "Graphics Software",
+    "description": "Figma, Illustrator, Photoshop and CorelDraw.",
+    "icon": "fas fa-images",
+    "measure": 80
+  },
+  {
+    "title": "Tech Stack Problem-solving",
+    "description": "Identify problems, brainstorm and analyze answers, and implement the best solutions.",
+    "icon": "far fa-lightbulb",
+    "measure": 85
+  }
 ]

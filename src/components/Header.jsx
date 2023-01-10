@@ -1,27 +1,25 @@
 import React from "react";
 
-import profile from "../assets/img/profile.png"
+import profile from "../assets/img/profile.png";
 
 export default function Header() {
   return (
-    <section className="row justify-content-center mb-4 border" id="home_section">
-      <div className="col-md-5 order-md-2">
+    <section className="row d-flex justify-content-center mb-5" id="home_section">
+      <div className="col-md-5 order-md-2 d-flex flex-fill align-items-center justify-content-center">
         <img
           id="profile"
-        //   src={profile}
+          //   src={profile}
           src={profile}
           alt=""
           className="img-fluid"
         />
       </div>
-      <div className="col-md-7 order-md-1">
-        <div className="">
-          <h4 className="fw-bold">Hi</h4>
-          <h1 className="fw-bold text-theme-color1" id="name">
-            I'm, Nelson
-          </h1>
-          <h2 className="fw-bold">Frontend Developer</h2>
-        </div>
+      <div className="col-md-5 order-md-1 d-flex flex-column justify-content-center">
+        <h4 className="fw-bold">Hi</h4>
+        <h1 className="fw-bold text-purple" id="name">
+          I'm, Nelson
+        </h1>
+        <h2 className="fw-bold">Frontend Developer</h2>
         <p>
           <small className="d-block pb-2">
             <i className="fas fa-envelope"></i>
