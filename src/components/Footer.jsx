@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="row mb-4">
+    <footer className="row mb-5">
       <nav className="d-flex justify-content-center">
         <a
           target="_blank"
@@ -22,6 +22,6 @@ export default function Footer() {
       <p className="d-flex justify-content-center">
         <small className="text-purple">&#169; All rights reserved 2022</small>
       </p>
-    </div>
+    </footer>
   );
 }

@@ -4,11 +4,10 @@ import profile from "../assets/img/profile.png";
 
 export default function Header() {
   return (
-    <section className="row d-flex justify-content-center mb-5" id="home_section">
+    <section className="row d-flex justify-content-center" id="home_section">
       <div className="col-md-5 order-md-2 d-flex flex-fill align-items-center justify-content-center">
         <img
           id="profile"
-          //   src={profile}
           src={profile}
           alt=""
           className="img-fluid"

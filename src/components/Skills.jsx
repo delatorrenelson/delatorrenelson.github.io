@@ -7,11 +7,11 @@ import skillsList from "../assets/skills.json";
 
 export default function Skills() {
   return (
-    <section className="row align-items-stretch mb-5">
-        <h2 className="fw-bold fs-1 text-center">Skills</h2>
-      {skillsList.map((skill) => {        
-        return <SkillCard key={uuid(5)} skill={skill} />;
-      })}
+    <section id="skills" className="row align-items-stretch">
+      <h2 className="fw-bold fs-1 text-center">Skills</h2>
+      {skillsList.map((skill) => (
+        <SkillCard key={uuid(5)} skill={skill} />
+      ))}
     </section>
   );
 }
