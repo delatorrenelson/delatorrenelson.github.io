@@ -20,7 +20,7 @@ body {
     box-shadow: 0 0 0 0;
 }
 
-.navbar-toggler {
+/* .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
     line-height: 1;
@@ -28,7 +28,7 @@ body {
     border: 0 solid transparent;
     border-radius: -0;
     transition: box-shadow 0.15s ease-in-out;
-}
+} */
 
 .navbar-toggler:focus {
     text-decoration: none;

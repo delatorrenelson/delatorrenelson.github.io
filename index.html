@@ -26,7 +26,6 @@
       crossorigin="anonymous"
     />
 
-
     <title>Mr. Nelson Porfolio</title>
   </head>
   <body>
@@ -45,5 +44,27 @@
     ></script>
 
     <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+      $(() => {
+        $("#offcanvasRight .nav-link").on("click", function (e) {          
+          e.preventDefault();
+          var targetEle = this.hash;
+          var $targetEle = $(targetEle);
+          $("html, body")
+            .stop()
+            .animate(
+              {
+                scrollTop: $targetEle.offset().top,
+              },
+              400,
+              "swing",
+              function () {
+                window.location.hash = targetEle;
+              }
+            );
+        });
+      });
+    </script>
   </body>
 </html>
