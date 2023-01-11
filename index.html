@@ -26,10 +26,9 @@
       crossorigin="anonymous"
     />
 
-
     <title>Mr. Nelson Porfolio</title>
-    <script type="module" crossorigin src="/assets/index-584fce9e.js"></script>
-    <link rel="stylesheet" href="/assets/index-47e80465.css">
+    <script type="module" crossorigin src="/assets/index-bbfa63e9.js"></script>
+    <link rel="stylesheet" href="/assets/index-c2bb3024.css">
   </head>
   <body>
     <div id="root"></div>
@@ -47,5 +46,27 @@
     ></script>
 
     
+
+    <script>
+      $(() => {
+        $("#offcanvasRight .nav-link").on("click", function (e) {          
+          e.preventDefault();
+          var targetEle = this.hash;
+          var $targetEle = $(targetEle);
+          $("html, body")
+            .stop()
+            .animate(
+              {
+                scrollTop: $targetEle.offset().top,
+              },
+              400,
+              "swing",
+              function () {
+                window.location.hash = targetEle;
+              }
+            );
+        });
+      });
+    </script>
   </body>
 </html>
