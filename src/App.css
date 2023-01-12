@@ -10,7 +10,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-family: "Varela Round", sans-serif;
     scroll-behavior: smooth;
-    background-color: #f5e5f17c;
+    /* background-color: #f5e5f17c; */
+    background-color: white;
 }
 
 /* NavBar custom */
@@ -19,16 +20,6 @@ body {
     outline: 0;
     box-shadow: 0 0 0 0;
 }
-
-/* .navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 0 solid transparent;
-    border-radius: -0;
-    transition: box-shadow 0.15s ease-in-out;
-} */
 
 .navbar-toggler:focus {
     text-decoration: none;
@@ -62,10 +53,6 @@ section {
     color: var(--purple) !important;
 }
 
-.bg-purpole {
-    background-color: var(--purple) !important;
-}
-
 #brand_icon {
     width: 48px;
     height: 48px;
@@ -74,12 +61,12 @@ section {
 }
 
 
-/* About Me */
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    font-weight: 600;
-    background-color: transparent;
+
+/* Header */
+#name{
+    font-size: 3rem;
 }
+
 
 /* Progress Bar */
 .fa-icon {
@@ -87,7 +74,7 @@ section {
 }
 
 
-/* For Progress bar */
+/* Skills progress meter */
 @keyframes growProgressBar {
     0%,
     33% {
@@ -128,9 +115,11 @@ div[role="progressbar"]::after {
     /* content: counter(percentage) '%'; */
 }
 
-/* For Progress bar END */
+/* Skills progress meter END */
 
 
+
+/* Style for ScrollToTop Button */
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;

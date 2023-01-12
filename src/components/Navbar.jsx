@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import avatar from "../assets/img/myAvatar_glass.png";
 
+
 const navLink = [
   {
     text: "Projects",
@@ -18,16 +19,11 @@ const navLink = [
     href: "#education",
     classes: "fs-4 nav-link text-purple px-2 mx-2",
   },
-  {
-    text: "Contact",
-    href: "#contact",
-    classes: "fs-4 nav-link text-purple px-2 mx-2",
-  },
 ];
 
 export default function Navbar() {
   return (
-    <nav className="row mb-4 navbar navbar-expand-sm fw-bold">
+    <nav className="row mb-4 navbar navbar-expand-sm fw-bold ">
       <div className="container-fluid">
         <a className="navbar-brand d-xs-none d-md-block" href="#home_section">
           <img id="brand_icon" src={avatar} alt="" className="img-fluid" />
@@ -46,21 +42,18 @@ export default function Navbar() {
           tabIndex="-1"
           id="offcanvasRight"
         >
+          <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasExampleLabel"></h5>
+          </div>
           <div className="offcanvas-body">
             {navLink.map((lnk) => {
               const { text, href, classes } = lnk;
               return (
                 <a
-                  
                   key={href}
                   href={href}
                   className={classes + " nav-link"}
                   data-bs-dismiss="offcanvas"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    // console.log(href.replace("#",""))
-                  }}
                 >
                   {text}
                 </a>

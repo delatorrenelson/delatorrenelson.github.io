@@ -21,7 +21,9 @@ export default function SkillCard({ skill }) {
               className="text-center d-flex justify-content-center align-items-center"
             >
               <div className="progress-content">
-                <i className={`fab fa-lg ${icon} text-purple fa-icon progress-content`}></i>
+                <i
+                  className={`fab fa-lg ${icon} text-purple fa-icon progress-content`}
+                ></i>
                 <span className="d-block fs-5">{measure}%</span>
               </div>
             </div>

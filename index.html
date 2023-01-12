@@ -26,6 +26,11 @@
       crossorigin="anonymous"
     />
 
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+
     <title>Mr. Nelson Porfolio</title>
   </head>
   <body>
@@ -47,7 +52,7 @@
 
     <script>
       $(() => {
-        $("#offcanvasRight .nav-link").on("click", function (e) {          
+        $("#offcanvasRight .nav-link").on("click", function (e) {
           e.preventDefault();
           var targetEle = this.hash;
           var $targetEle = $(targetEle);
@@ -57,7 +62,7 @@
               {
                 scrollTop: $targetEle.offset().top,
               },
-              400,
+              600,
               "swing",
               function () {
                 window.location.hash = targetEle;

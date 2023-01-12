@@ -6,14 +6,14 @@ export default function Footer() {
       <nav className="d-flex justify-content-center">
         <a
           target="_blank"
-          className="nav-link text-purple fw-light"
+          className="nav-link text-purple fw-light fs-3"
           href="https://github.com/delatorrenelson"
         >
           <i className="fab fa-github fa-lg"></i>
         </a>
         <a
           target="_blank"
-          className="nav-link text-purple fw-light"
+          className="nav-link text-purple fw-light fs-3"
           href="https://www.linkedin.com/in/nelson-delatorre-4a04b2192/"
         >
           <i className="fab fa-linkedin fa-lg"></i>
