@@ -1,22 +1,26 @@
 [
   {
-    "imgSrc": "./src/assets/img/preview4.png",
-    "description": "Project Description",
-    "title": "Project Title"
+    "imgSrc": "./src/assets/img/philippine-destination.png",
+    "description": "Travel App intended for Best of Philippine Tourists Spot.",
+    "title": "Philippine Destination",
+    "href": "https://philippine-destination.vercel.app/"
+  },
+  {
+    "imgSrc": "./src/assets/img/mathgens.png",
+    "description": "Simple math problem generator.",
+    "title": "MathGens",
+    "href": "https://mathgens.vercel.app/"
+  },
+  {
+    "imgSrc": "./src/assets/img/betstarter.png",
+    "description": "Philippine lottery betting system and analysis",
+    "title": "Betstarter",
+    "href": "https://betstarter-web.vercel.app/"
   },
   {
     "imgSrc": "./src/assets/img/preview4.png",
     "description": "Project Description",
-    "title": "Project Title"
-  },
-  {
-    "imgSrc": "./src/assets/img/preview4.png",
-    "description": "Project Description",
-    "title": "Project Title"
-  },
-  {
-    "imgSrc": "./src/assets/img/preview4.png",
-    "description": "Project Description",
-    "title": "Project Title"
+    "title": "Project Title",
+    "href": "#"
   }
 ]
