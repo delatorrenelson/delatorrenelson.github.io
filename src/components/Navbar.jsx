@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <nav className="row mb-4 navbar navbar-expand-sm fw-bold ">
       <div className="container-fluid">
-        <a className="navbar-brand d-xs-none d-md-block" href="#home_section">
+        <a className="navbar-brand d-xs-none d-md-block" href="https://delatorrenelson.github.io">
           <img id="brand_icon" src={avatar} alt="" className="img-fluid" />
         </a>
         <button

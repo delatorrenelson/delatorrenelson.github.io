@@ -63,7 +63,7 @@ section {
 
 
 /* Header */
-#name{
+#name {
     font-size: 3rem;
 }
 
@@ -76,6 +76,7 @@ section {
 
 /* Skills progress meter */
 @keyframes growProgressBar {
+
     0%,
     33% {
         --pgPercentage: 0;
@@ -126,4 +127,33 @@ div[role="progressbar"]::after {
     right: 20px;
     display: none;
     z-index: 2000;
+}
+
+.project {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.project div {
+    height: 100%;
+}
+
+
+.card-img-top {
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: auto;
+    height: 240px;
+    object-fit: cover;
+}
+
+.card .card-body {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-items: flex-end;
+}
+
+.project:hover {
+    transform: scale(1.03);
 }

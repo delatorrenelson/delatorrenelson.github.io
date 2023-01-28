@@ -20,7 +20,7 @@ export default function Footer() {
         </a>
       </nav>
       <p className="d-flex justify-content-center">
-        <small className="text-purple">&#169; All rights reserved 2022</small>
+        <small className="text-purple">&#169; 2022</small>
       </p>
     </footer>
   );
