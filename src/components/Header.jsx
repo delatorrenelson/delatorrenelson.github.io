@@ -37,17 +37,24 @@ export default function Header() {
           <span className="d-flex align-items-center">
             <a
               target="_blank"
-              className="text-purple fw-light fs-5 me-3"
+              className="text-purple fw-light fs-3 me-3"
               href="https://github.com/delatorrenelson"
             >
               <i className="fab fa-github fa-lg"></i>
             </a>
             <a
               target="_blank"
-              className="text-purple fw-light fs-5"
+              className="text-purple fw-light fs-3 me-3"
               href="https://www.linkedin.com/in/nelson-delatorre-4a04b2192/"
             >
               <i className="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a
+              target="_blank"
+              className="text-purple fw-light fs-2 me-3"
+              href="https://www.behance.net/gallery/163222613/Web-Designs"
+            >
+              <i className="fab fa-behance fa-lg"></i>
             </a>
           </span>
         </p>
