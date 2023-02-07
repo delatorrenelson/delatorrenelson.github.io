@@ -18,6 +18,13 @@ export default function Footer() {
         >
           <i className="fab fa-linkedin fa-lg"></i>
         </a>
+        <a
+          target="_blank"
+          className="nav-link text-purple fw-light fs-3"
+          href="https://www.behance.net/gallery/163222613/Web-Designs"
+        >
+          <i className="fab fa-behance fa-lg"></i>
+        </a>
       </nav>
       <p className="d-flex justify-content-center">
         <small className="text-purple">&#169; 2022</small>
